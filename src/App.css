@@ -1,0 +1,82 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  color:aqua
+  
+}
+
+.app-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: rgb(161, 4, 4); /* Red, reminiscent of Pokedex text */
+  text-shadow: 1px 1px 2px #000; /* Add drop shadow */
+}
+
+.search-container {
+  color:#333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #291414; /* Light gray background */
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f00; /* Red, like Pokedex buttons */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold; /* Bold text */
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 70%; /* Increase card width */
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.pokemon-sprite {
+  width: 200px; /* Increase sprite width */
+  height: auto;
+  border-radius: 5px; /* Rounded corners for the sprite */
+}
+
+.pokemon-details {
+  flex-grow: 1; /* Allow details to expand within the card */
+  text-align: left;
+}
+
+.pokemon-name {
+  font-size: 1.5em; /* Larger name */
+  margin-bottom: 5px;
+  color: #333; /* Adjust color as needed */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Add more styles for other details (abilities, types, etc.) */
+.pokemon-details > p {
+  margin-bottom: 5px;
+}
